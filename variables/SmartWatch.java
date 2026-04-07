@@ -1,31 +1,8 @@
 class SmartWatch
 {
-	static String brand="Noise";
-	static	String manufacturer="Nexxbase Marketing Pvt, Ltd, Noise";
-	static	String series="NoiseFit";
-	static	String colour="Gold Link";
-	static	String item_height="10.5 Centimeters";
-	static	String item_width="10.4 Centimeters";
-	static	String standing_screen_display_size="1.3 inches";
-	static	String product_dimentions="7.1*10.4*10.5 cm;0.05g";
-	static	String batteries="1 Lithium lon batteries required(included)";
-	static	String item_model_number="wrb-sw-twistgo-meshmtl-gld_gld";
-	static	String connectivity="Bluetooth";
-	static	String wireless="Bluetooth";
-	static	String wattage="15 Watts";
-	static	String operating_system="SmartWatch";
-	static	String averagebatteylife="7 Days";
-	static	String batteriesincluded="Yes";
-	static	String lithium_battery="210 Milliampere Hour(mAh)";
-	static	String lithium_battery_weight="35 Grams";
-	static	int ion_cells=1;
-	static	int metal_cells=1;
-	static	String components="SmartWatch, Magnetic Charger, User Manual, Warranty Card";
-	static	String country_of_origin="India";
-	static	String item_weight="0.05g";
 	public static void main(String[] args)
 	{
-		/*String brand="Noise";
+		String brand="Noise";
 		String manufacturer="Nexxbase Marketing Pvt, Ltd, Noise";
 		String series="NoiseFit";
 		String colour="Gold Link";
@@ -47,7 +24,7 @@ class SmartWatch
 		int metal_cells=1;
 		String components="SmartWatch, Magnetic Charger, User Manual, Warranty Card";
 		String country_of_origin="India";
-		String item_weight="0.05g";*/
+		String item_weight="0.05g";
 		System.out.println("The Brand is : " + brand);
 		System.out.println("The Manufacturer is : " + manufacturer);
 		System.out.println("The Series : " + series);

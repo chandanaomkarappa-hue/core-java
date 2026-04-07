@@ -1,22 +1,8 @@
 class Bag
 {
-	static String product_dimensions="9 x 17 x 31 cm; 300 g  ";
-	static 	String date_first_available=" 23 December 2025";
-	static 	String manufacturer=" VALIJA Lifestyle, Thane, Maharashtra";
-	static 	String asin="B0GC7GV6SH ";
-	static 	String item_model_number="ATB-001-Black";
-	static 	String country_of_origin="India";
-	static 	String department="unisex-adult";
-	static 	String manufacturer_location=" VALIJA Lifestyle, Thane, Maharashtra";
-	static 	String packer="Valija Lifestyle, Surya Orchid, Thane, Maharashtra-401107, Contact-9326575846, Email-Valijalifestyle@gmail.com";
-	static 	String item_weight="300 g";
-	static 	String item_dimensions=" 9 x 17 x 31 Centimeters ";
-	static 	String net_quantity=" 1 Count";
-	static 	String generic_name=" Cross Body Bag";
-	static 	String best_sellers_rank=" #133 in Bags, Wallets and Luggage (See Top 100 in Bags, Wallets and Luggage)#3 in Messenger & Sling Bags";
 	public static void main(String[] args)
 	{
-		/*String product_dimensions="9 x 17 x 31 cm; 300 g  ";
+		String product_dimensions="9 x 17 x 31 cm; 300 g  ";
 		String date_first_available=" 23 December 2025";
 		String manufacturer=" VALIJA Lifestyle, Thane, Maharashtra";
 		String asin="B0GC7GV6SH ";
@@ -29,7 +15,7 @@ class Bag
 		String item_dimensions=" 9 x 17 x 31 Centimeters ";
 		String net_quantity=" 1 Count";
 		String generic_name=" Cross Body Bag";
-		String best_sellers_rank=" #133 in Bags, Wallets and Luggage (See Top 100 in Bags, Wallets and Luggage)#3 in Messenger & Sling Bags";*/
+		String best_sellers_rank=" #133 in Bags, Wallets and Luggage (See Top 100 in Bags, Wallets and Luggage)#3 in Messenger & Sling Bags";
 		System.out.println(" Product Dimensions is : " + product_dimensions);
 		System.out.println(" Product Date First Available is : " + date_first_available);
 		System.out.println(" Manufacturer is : " + manufacturer);

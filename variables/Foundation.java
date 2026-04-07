@@ -1,22 +1,8 @@
 class Foundation
 {
-	static String manufacturer=" ‎Yichang Tianmei International Cosmetics, 443000 Yichang, Hubei, China";
-	static 	String country_of_origin="China";
-	static 	String item_model_number="‎FMFLF128-50";
-	static 	String product_dimensions="3 x 3 x 10.7 cm; 107 g  ";
-	static 	String asin="‎B087XFYCDQ ";
-	static 	String manufacturer_location="Yichang Tianmei International Cosmetics, 443000 Yichang, Hubei, China, Yichang Tianmei International Cosmetics, Xihu Road, Xi Ling Economic & Technology Development Zone No.18, 443000 Yichang, Hubei, China ";
-	static 	String packer="Yichang Tianmei International Cosmetics, Xihu Road, Xi Ling Economic & Technology Development Zone No.18, 443000 Yichang, Hubei, China";
-	static 	String importer="L'Oréal India Pvt. Ltd. A-Wing, 8th Floor, Marathon Futurex, NM Joshi Marg, Lower Parel, Mumbai, Maharashtra 400013";
-	static 	String item_weight="107 g";
-	static 	String item_dimensions="30 x 30 x 107 Millimeters ";
-	static 	String net_quantity=" 30.0 Milliliters";
-	static 	String components=" Foundation";
-	static 	String generic_name=" Foundation";
-	static 	String best_sellers_rank=" #282 in Beauty (See Top 100 in Beauty)#2 in Foundation";
 	 public static void main(String[] args)
 	{
-		/*String manufacturer=" ‎Yichang Tianmei International Cosmetics, 443000 Yichang, Hubei, China";
+		String manufacturer=" ‎Yichang Tianmei International Cosmetics, 443000 Yichang, Hubei, China";
 		String country_of_origin="China";
 		String item_model_number="‎FMFLF128-50";
 		String product_dimensions="3 x 3 x 10.7 cm; 107 g  ";
@@ -29,7 +15,7 @@ class Foundation
 		String net_quantity=" 30.0 Milliliters";
 		String components=" Foundation";
 		String generic_name=" Foundation";
-		String best_sellers_rank=" #282 in Beauty (See Top 100 in Beauty)#2 in Foundation";*/
+		String best_sellers_rank=" #282 in Beauty (See Top 100 in Beauty)#2 in Foundation";
 		System.out.println(" Manufacturer is : " + manufacturer);
 		System.out.println(" Country Of Origin is : " + country_of_origin);
 		System.out.println(" Item Model Number is : " + item_model_number);

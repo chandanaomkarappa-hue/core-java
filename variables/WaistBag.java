@@ -1,22 +1,8 @@
 class WaistBag
 {
-	static String department="‎Unisex";
-	static 	String manufacturer=" Tressential Solutions Private Limited";
-	static 	String country_of_origin="China";
-	static 	String item_model_number=" ‎SS0001";
-	static 	String product_dimensions=" ‎31 x 3 x 15 cm; 110 g ";
-	static 	String asin="‎B0G44BJ56Z";
-	static 	String manufacturer_location=" Tressential Solutions Private Limited";
-	static 	String packer="Tressential Solutions Pvt Ltd, 1st Floor, Navami Complex, Ambalappady, Pallikkal PO, Malappuram, Kerala, Customer Care Email : hello@tressential.in, Whatsapp : 7558800844";
-	static 	String importer="Tressential Solutions Pvt Ltd, 1st Floor, Navami Complex, Ambalappady, Pallikkal PO, Malappuram, Kerala, Customer Care Email : hello@tressential.in, Whatsapp : 7558800844";
-	static 	String item_weight="110 g";
-	static 	String item_dimensions="31 x 3 x 15 Centimeters";
-	static 	String net_quantity=" ‎ 1 Count";
-	static 	String generic_name="Travel Accessory- Money Belt";
-	static String bestsellersrank="#1,933 in Bags, Wallets and Luggage (See Top 100 in Bags, Wallets and Luggage)#32 in Waist Packs#55 in Camping & Hiking Bags & Packs";
 	public static void main(String[] args)
 	{
-		/*String department="‎Unisex";
+		String department="‎Unisex";
 		String manufacturer=" Tressential Solutions Private Limited";
 		String country_of_origin="China";
 		String item_model_number=" ‎SS0001";
@@ -29,7 +15,7 @@ class WaistBag
 		String item_dimensions="31 x 3 x 15 Centimeters";
 		String net_quantity=" ‎ 1 Count";
 		String generic_name="Travel Accessory- Money Belt";
-		String bestsellersrank="#1,933 in Bags, Wallets and Luggage (See Top 100 in Bags, Wallets and Luggage)#32 in Waist Packs#55 in Camping & Hiking Bags & Packs";*/
+		String bestsellersrank="#1,933 in Bags, Wallets and Luggage (See Top 100 in Bags, Wallets and Luggage)#32 in Waist Packs#55 in Camping & Hiking Bags & Packs";
 		System.out.println(" Department is : " + department);
 		System.out.println(" Manufacturer is : " + manufacturer);
 		System.out.println(" Country Of Origin is : " + country_of_origin);

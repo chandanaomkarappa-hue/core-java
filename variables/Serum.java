@@ -1,21 +1,8 @@
 class Serum
 {
-	static String manufacturer=" ‎Johnson & Johnson Korea Ltd.";
-	static 	String country_of_origin="Republic of Korea";
-	static 	String item_model_number="	‎79640037‎‎";
-	static 	String product_dimensions="‎6.3 x 4.3 x 12 cm; 139 g ‎";
-	static 	String asin="‎‎ ‎B0CZ3HS2DV	";
-	static 	String manufacturer_location="	Johnson & Johnson Korea Ltd. 61, Daesin-ro 164beon-gil, Heungdeok-gu, Cheongju-si, Chungcheongbuk-do, Korea";
-	static 	String packer="Johnson & Johnson Korea Ltd. 61, Daesin-ro 164beon-gil, Heungdeok-gu, Cheongju-si, Chungcheongbuk-do, Korea ";
-	static 	String importer="JNTL Consumer Health India Pvt Ltd. L B S Marg Mulund West, Mumbai 400080, 1800-228-111";
-	static 	String item_weight="139 g‎ ";
-	static 	String item_dimensions="6.3 x 4.3 x 12 Centimeters ";
-	static 	String net_quantity=" 1 Count";
-	static 	String generic_name="	Serum ";
-	static 	String best_sellers_rank=" #4,850 in Beauty (See Top 100 in Beauty)#170 in Serums";
 	public static void main(String[] args)
 	{
-		/*String manufacturer=" ‎Johnson & Johnson Korea Ltd.";
+		String manufacturer=" ‎Johnson & Johnson Korea Ltd.";
 		String country_of_origin="Republic of Korea";
 		String item_model_number="	‎79640037‎‎";
 		String product_dimensions="‎6.3 x 4.3 x 12 cm; 139 g ‎";
@@ -27,7 +14,7 @@ class Serum
 		String item_dimensions="6.3 x 4.3 x 12 Centimeters ";
 		String net_quantity=" 1 Count";
 		String generic_name="	Serum ";
-		String best_sellers_rank=" #4,850 in Beauty (See Top 100 in Beauty)#170 in Serums";*/
+		String best_sellers_rank=" #4,850 in Beauty (See Top 100 in Beauty)#170 in Serums";
 		System.out.println(" Manufacturer  is : " + manufacturer);
 		System.out.println(" Country Of Origin is : " + country_of_origin);
 		System.out.println(" Item Model Number is : " + item_model_number);

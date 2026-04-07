@@ -1,23 +1,8 @@
 class HandBag
 {
-	static String product_dimensions=" 30 x 11 x 17 cm; 750 g ";
-	static 	String date_first_available=" ‎27 August 2025 ";
-	static 	String manufacturer=" EXOTIC COLLECTIONS";
-	static 	String asin="B0FNX86DTC ";
-	static 	String item_model_number=" Sage Stitch Collections HB-3327";
-	static 	String country_of_origin="India";
-	static 	String department="Womens/Girls";
-	static 	String manufacturer_location=" EXOTIC COLLECTIONS";
-	static 	String packer="EXOTIC COLLECTIONS";
-	static 	String item_weight="750 g";
-	static 	String item_dimensions="30 x 11 x 17 Centimeters";
-	static 	String net_quantity=" ‎ 1 Count";
-	static 	String components="Sling Bag";
-	static 	String generic_name="Handbag";
-	static 	String bestsellersrank="#42,376 in Shoes & Handbags (See Top 100 in Shoes & Handbags)#581 in Women's Top-Handle Bags";
 	public static void main(String[] args)
 	{
-		/*String product_dimensions=" 30 x 11 x 17 cm; 750 g ";
+		String product_dimensions=" 30 x 11 x 17 cm; 750 g ";
 		String date_first_available=" ‎27 August 2025 ";
 		String manufacturer=" EXOTIC COLLECTIONS";
 		String asin="B0FNX86DTC ";
@@ -31,7 +16,7 @@ class HandBag
 		String net_quantity=" ‎ 1 Count";
 		String components="Sling Bag";
 		String generic_name="Handbag";
-		String bestsellersrank="#42,376 in Shoes & Handbags (See Top 100 in Shoes & Handbags)#581 in Women's Top-Handle Bags";*/
+		String bestsellersrank="#42,376 in Shoes & Handbags (See Top 100 in Shoes & Handbags)#581 in Women's Top-Handle Bags";
 		System.out.println(" Product Dimensions is : " + product_dimensions);
 		System.out.println(" Product Date First Available is : " + date_first_available);
 		System.out.println(" Manufacturer is : " + manufacturer);

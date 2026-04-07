@@ -1,22 +1,8 @@
 class Shoes
 {
-	static String product_dimensions="29*23*10 cm; 600g  ";
-	static 	String date_first_available=" 26 December 2024";
-	static 	String manufacturer=" Boldfit";
-	static 	String asin="B0DRKKVB61 ";
-	static 	String item_model_number="BSHawkeyBO8";
-	static 	String country_of_origin="India";
-	static 	String department="Mens";
-	static 	String manufacturer_location=" Bangalore, 560041,support@boldfit.in,08043702806, Boldfit";
-	static 	String packer="Boldfit, Bangalore, 560041,support@boldfit.in,08043702806";
-	static 	String item_weight="600 g";
-	static 	String item_dimensions="29 x 23 x 10 Millimeters ";
-	static 	String net_quantity=" 1 Count";
-	static 	String generic_name=" Badmiton Shoes";
-	static 	String best_sellers_rank=" #2 in Shoes & Handbags (See Top 100 in Shoes & Handbags)#1 in Men's Badminton Shoes";
 	public static void main(String[] args)
 	{
-		/*String product_dimensions="29*23*10 cm; 600g  ";
+		String product_dimensions="29*23*10 cm; 600g  ";
 		String date_first_available=" 26 December 2024";
 		String manufacturer=" Boldfit";
 		String asin="B0DRKKVB61 ";
@@ -29,7 +15,7 @@ class Shoes
 		String item_dimensions="29 x 23 x 10 Millimeters ";
 		String net_quantity=" 1 Count";
 		String generic_name=" Badmiton Shoes";
-		String best_sellers_rank=" #2 in Shoes & Handbags (See Top 100 in Shoes & Handbags)#1 in Men's Badminton Shoes";*/
+		String best_sellers_rank=" #2 in Shoes & Handbags (See Top 100 in Shoes & Handbags)#1 in Men's Badminton Shoes";
 		System.out.println(" Product Dimensions is : " + product_dimensions);
 		System.out.println(" Product Date First Available is : " + date_first_available);
 		System.out.println(" Manufacturer is : " + manufacturer);

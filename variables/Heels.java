@@ -1,22 +1,8 @@
 class Heels
 {
-	static String product_dimensions=" 26 x 10 x 8 cm; 400 g  ";
-	static 	String date_first_available="  11 October 2023‎ ";
-	static 	String manufacturer=" Dazzling Footwear, WZ-167 , Madhipur Village , New Delhi-110063 ";
-	static 	String asin=" B0CKW923PB";
-	static 	String item_model_number=" Heel-1246-Rose-Gold";
-	static 	String country_of_origin="India";
-	static 	String department="Womens";
-	static 	String manufacturer_location=" Dazzling Footwear, WZ-167 , Madhipur Village , New Delhi-110063, Dazzling Footwear, WZ-167 , Madhipur Village , New Delhi-110063";
-	static 	String packer="Do Bhai Bags and Luggage B-86 Mayapuri Phase -1 New Delhi -110064";
-	static 	String item_weight="400 g";
-	static 	String item_dimensions="26 x 10 x 8 Centimeters";
-	static 	String net_quantity=" 1 Count";
-	static 	String generic_name=" Heeled Sandal";
-	static 	String bestsellersrank="#900 in Shoes & Handbags (See Top 100 in Shoes & Handbags)#24 in Women's Fashion Sandals";
 	public static void main(String[] args)
 	{
-		/*String product_dimensions=" 26 x 10 x 8 cm; 400 g  ";
+		String product_dimensions=" 26 x 10 x 8 cm; 400 g  ";
 		String date_first_available="  11 October 2023‎ ";
 		String manufacturer=" Dazzling Footwear, WZ-167 , Madhipur Village , New Delhi-110063 ";
 		String asin=" B0CKW923PB";
@@ -29,7 +15,7 @@ class Heels
 		String item_dimensions="26 x 10 x 8 Centimeters";
 		String net_quantity=" 1 Count";
 		String generic_name=" Heeled Sandal";
-		String bestsellersrank="#900 in Shoes & Handbags (See Top 100 in Shoes & Handbags)#24 in Women's Fashion Sandals";*/
+		String bestsellersrank="#900 in Shoes & Handbags (See Top 100 in Shoes & Handbags)#24 in Women's Fashion Sandals";
 		System.out.println(" Product Dimensions is : " + product_dimensions);
 		System.out.println(" Product Date First Available is : " + date_first_available);
 		System.out.println(" Manufacturer is : " + manufacturer);

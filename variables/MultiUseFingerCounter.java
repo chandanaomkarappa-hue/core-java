@@ -1,19 +1,8 @@
 class MultiUseFingerCounter
 {
-	static String department="Unisex-Adult‎";
-	static 	String manufacturer="‎Arthav by sanwariya Group ";
-	static 	String country_of_origin="India";
-	static 	String asin="‎B0GBWPDCBX‎";
-	static 	String manufacturer_location=" Arthav by sanwareiya Group";
-	static 	String packer="Arthav by sanwareiya Group Jaipur 302012";
-	static 	String item_weight="10 g";
-	static 	String item_dimensions="20 x 20 x 20 Millimeters";
-	static 	String component=" Tally Counter‎";
-	static 	String generic_name="Tally Counter";
-	static 	String bestsellersrank="#124 in Sports, Fitness & Outdoors (See Top 100 in Sports, Fitness & Outdoors)#2 in Track & Field Lap Counters";
 	public static void main(String[] args)
 	{
-		/*String department="Unisex-Adult‎";
+		String department="Unisex-Adult‎";
 		String manufacturer="‎Arthav by sanwariya Group ";
 		String country_of_origin="India";
 		String asin="‎B0GBWPDCBX‎";
@@ -23,7 +12,7 @@ class MultiUseFingerCounter
 		String item_dimensions="20 x 20 x 20 Millimeters";
 		String component=" Tally Counter‎";
 		String generic_name="Tally Counter";
-		String bestsellersrank="#124 in Sports, Fitness & Outdoors (See Top 100 in Sports, Fitness & Outdoors)#2 in Track & Field Lap Counters";*/
+		String bestsellersrank="#124 in Sports, Fitness & Outdoors (See Top 100 in Sports, Fitness & Outdoors)#2 in Track & Field Lap Counters";
 		System.out.println(" Department is : " + department);
 		System.out.println(" Manufacturer is : " + manufacturer);
 		System.out.println(" Country Of Origin is : " + country_of_origin);

@@ -1,21 +1,8 @@
 class CompactPowder
 {
-	static String manufacturer=" ‎GEGE BEAR";
-	static	String country_of_origin="China";
-	static	String item_part_number="‎‎GX2018";
-	static	String product_dimensions="10 x 10 x 5 cm; 200 g  ";
-	static	String asin="B0F47DWQH9 ";
-	static	String manufacturer_location="GEGE BEAR ";
-	static	String packer="GEGE BEAR";
-	static	String importer="GEGE BEAR";
-	static	String item_weight="200 g";
-	static	String item_dimensions="10 x 10 x 5 Centimeters ";
-	static	String net_quantity=" 20.0 Grams";
-	static	String generic_name="Cushion Foundation + Compact Powder";
-	static	String best_sellers_rank=" #27,888 in Beauty (See Top 100 in Beauty)#531 in Foundation";
 	public static void main(String[] args)
 	{
-		/*String manufacturer=" ‎GEGE BEAR";
+		String manufacturer=" ‎GEGE BEAR";
 		String country_of_origin="China";
 		String item_part_number="‎‎GX2018";
 		String product_dimensions="10 x 10 x 5 cm; 200 g  ";
@@ -27,7 +14,7 @@ class CompactPowder
 		String item_dimensions="10 x 10 x 5 Centimeters ";
 		String net_quantity=" 20.0 Grams";
 		String generic_name="Cushion Foundation + Compact Powder";
-		String best_sellers_rank=" #27,888 in Beauty (See Top 100 in Beauty)#531 in Foundation";*/
+		String best_sellers_rank=" #27,888 in Beauty (See Top 100 in Beauty)#531 in Foundation";
 		System.out.println(" Manufacturer is : " + manufacturer);
 		System.out.println(" Country Of Origin is : " + country_of_origin);
 		System.out.println(" Item Part Number is : " + item_part_number);
