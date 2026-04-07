@@ -4,19 +4,20 @@ class Cafe
 	{
 
 		System.out.println("List of Different Tea Names are:");
-		String cafeName="Cringe Cafe";
-		String amrutchai="Amrut Chai";
-		String elachichai="Elachi Chai";
-		String gingerchai="Ginger Chai";
-		String greenchai="Green Chai";
-		String masalachai="Masala Chai";
-		String lemonchai="lemonchai";
-		String properties[]={amrutchai,elachichai,gingerchai,greenchai,masalachai,lemonchai};
-		for(String property:properties)
-			System.out.println(property);
-		//String teaNames[]={"Amrut Chai", "Elachi Chai","Ginger Chai","Green Chai","Masala Chai","Lemon Chai"};
+		// String cafeName="Cringe Cafe";
+		// String amrutchai="Amrut Chai";
+		// String elachichai="Elachi Chai";
+		// String gingerchai="Ginger Chai";
+		// String greenchai="Green Chai";
+		// String masalachai="Masala Chai";
+		// String lemonchai="lemonchai";
+		//String properties[]={amrutchai,elachichai,gingerchai,greenchai,masalachai,lemonchai};
+		
+		
+		String teaNames[]={"Amrut Chai", "Elachi Chai","Ginger Chai","Green Chai","Masala Chai","Lemon Chai"};
 		//String coffeeNames[]={"Espresso","Americano","Latte","Cappuccino","Mocha","Flat White","Macchiato","Cartado","Red Eyes","Long Black","Lungo","Filter Coffee","Cold Brew","Doppio","Irish","Cold Coffee"};
 		//String  snacks[]={"Cake","Desserts","Croissants","Sandwiches","toasties","Cookies","Pastries","Garlic Bread","Burger","Pizza","Tacos","Samosa","Pakoras","Kachori","Dhokla","Banana Chips"};
+		getTeanames()
 		System.out.println("List of Different Coffee Names are:");
 		//System.out.println(coffeeNames[0]+ "\n "+
 		String espresso="Espresso";
@@ -100,5 +101,9 @@ class Cafe
 							snacks[14]+"\n"+
 							snacks[15]+"\n");*/
 		
+	}
+	static void getTeanames(){
+	for(String property:teaNames)
+			System.out.println(property);
 	}
 }
