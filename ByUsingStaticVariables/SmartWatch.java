@@ -1,5 +1,28 @@
 class SmartWatch
 {
+	static String brand="Sound";
+	static	String manufacturer="Neba";
+	static	String series="sound";
+	static	String colour="Silver";
+	static	String item_height="4.5 centimeters";
+	static	String item_width="3.3 centimeters";
+	static	String standing_screen_display_size="2.5 inches";
+	static	String product_dimentions="8.1*10.4*10.5 cm;0.05g";
+	static	String batteries="2 Lithium";
+	static	String item_model_number="web-sw-txistgo-meshmtl-gld_gld";
+	static	String connectivity="B1";
+	static	String wireless="B1";
+	static	String wattage="10 Watts";
+	static	String operating_system="B1";
+	static	String averagebatteylife="B1";
+	static	String batteriesincluded="no";
+	static	String lithium_battery="110 milliamphere";
+	static	String lithium_battery_weight="no";
+	static	int ion_cells=2;
+	static	int metal_cells=2;
+	static	String components="smart watch";
+	static	String country_of_origin="China";
+	static	String item_weight="1 kg";
 	public static void main(String[] args)
 	{
 		String brand="Noise";

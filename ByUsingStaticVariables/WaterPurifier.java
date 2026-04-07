@@ -1,24 +1,41 @@
 class WaterPurifier
 {
+	static String brand;
+	static String special_feature;
+	static String product_dimentions;
+	static String package_information;
+	static String installation_type;
+	static String power_source;
+	static String model_name;
+	static String maximum_flow_rate;
+	static long supported_water_tds_level_maximum;
+	static String manufacturer;
+	static long manufacturer_year;
+	static String country_of_origin;
+	static String model_number;
+	static String colour;
+	static String specific_product_use;
+	static String item_weight;
+	static String item_model_number;
 	public static void main(String[] args)
 	{
-		String brand="KENT";
-		String special_feature="RO,UF,UV";
-		String product_dimentions="39L*53W*25H Centimeters";
-		String package_information="Dispenser";
-		String installation_type="Wall Mount,Freestanding";
-		String power_source="Corded_Electric";
-		String model_name="Grand RO";
-		String maximum_flow_rate="20 Liters Per Hour";
-		long supported_water_tds_level_maximum=2000L;
-		String manufacturer= "Kent Ro System ltd";
-		long manufacturer_year=2024L;
-		String country_of_origin="India";
-		String model_number="KENT Grand";
-		String colour="White";
-		String specific_product_use="Water Purifier";
-		String item_weight="7 kg";
-		String item_model_number="Kent Grand";
+		brand="KENT";
+		special_feature="RO,UF,UV";
+		product_dimentions="39L*53W*25H Centimeters";
+		package_information="Dispenser";
+		installation_type="Wall Mount,Freestanding";
+		power_source="Corded_Electric";
+		model_name="Grand RO";
+		maximum_flow_rate="20 Liters Per Hour";
+		supported_water_tds_level_maximum=2000L;
+		 manufacturer= "Kent Ro System ltd";
+		manufacturer_year=2024L;
+		country_of_origin="India";
+		model_number="KENT Grand";
+		colour="White";
+		specific_product_use="Water Purifier";
+		item_weight="7 kg";
+		item_model_number="Kent Grand";
 		System.out.println("The Brand is: " + brand);
 		System.out.println("The Special Feature is: " + special_feature);
 		System.out.println("The Product Dimension is: " + product_dimentions);
