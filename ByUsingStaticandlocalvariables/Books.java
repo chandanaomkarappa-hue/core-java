@@ -1,22 +1,22 @@
 class Books
 {
-	static String asin;
-	static String publisher;
-	static String publication_date;
-	static String edition;
-	static String language;
-	static String print_length;
-	static String isbn;
-	static String isbns;
-	static String reading_age;
-	static String item_weight;
-	static String dimensions;
-	static String country_of_origin;
-	static String net_quantity;
-	static String importer;
-	static String packer;
-	static String generic_name;
-	static String best_sellers_rank;
+	static String asin="67643789907";
+	static String publisher="Magic Looks";
+	static String publication_date="09 june 2022";
+	static String edition="Third Edition";
+	static String language="Hindi";
+	static String print_length="110 pages";
+	static long  isbn=563686398208298L;
+	static long isbns=563686398208298L;
+	static String reading_age="5 years";
+	static String item_weight="500 g";
+	static String dimensions="5*2.5*6.1 cm";
+	static String country_of_origin="China";
+	static String net_quantity="2 count";
+	static String importer="Mumbai";
+	static String packer="Mumbai";
+	static String generic_name="Stories books";
+	static String best_sellers_rank="#1 in Books(see Top 10 in Books)";
 	public static void main(String[] args)
 	{
 		String asin="‎ 9387779262 ";
@@ -25,8 +25,8 @@ class Books
 		String edition="First Edition";
 		String language="‎English";
 		String print_length="220 pages‎";
-		String isbn="9789387779266‎";
-		String isbns="9789387779266‎";
+		long isbn=983686398208298L;
+		long isbns=9863686398208298L;
 		String reading_age="Customer suggested age: 1 year and up";
 		String item_weight="820 g‎";
 		String dimensions="10.16 x 9.4 x 12.7 cm";
@@ -37,21 +37,38 @@ class Books
 		String generic_name="Books";
 		String best_sellers_rank=" #1 in Books (See Top 100 in Books)#1 in Children's Picture Books (Books)#1 in Language Study for Children (Books)#1 in Books & Libraries for Children";
 		System.out.println("Asin : " + asin);
+		System.out.println("Asin : " + Books.asin);
 		System.out.println("Publisher: " + publisher);
+		System.out.println("Publisher: " + Books.publisher);
 		System.out.println("Publication Date: " + publication_date);
+		System.out.println("Publication Date: " + Books.publication_date);
 		System.out.println("Edition: " + edition);
+		System.out.println("Edition: " + Books.edition);
 		System.out.println("Language: " + language);
+		System.out.println("Language: " + Books.language);
 		System.out.println("Print length: " + print_length);
+		System.out.println("Print length: " + Books.print_length);
 		System.out.println("ISBN-10: " + isbn);
+		System.out.println("ISBN-10: " + Books.isbn);
 		System.out.println("ISBN-13: " + isbns);
+		System.out.println("ISBN-13: " + Books.isbns);
 		System.out.println("Reading Age  : " + reading_age);
+		System.out.println("Reading Age  : " + Books.reading_age);
 		System.out.println("Item Weight : " + item_weight);
+		System.out.println("Item Weight : " + Books.item_weight);
 		System.out.println("Dimensions: " + dimensions);
+		System.out.println("Dimensions: " + Books.dimensions);
 		System.out.println("Country of Origin : " + country_of_origin);
+		System.out.println("Country of Origin : " + Books.country_of_origin);
 		System.out.println("Net Quantity: " + net_quantity);
+		System.out.println("Net Quantity: " + Books.net_quantity);
 		System.out.println("Importer : " + importer);
+		System.out.println("Importer : " + Books.importer);
 		System.out.println("Packer: " + packer);
+		System.out.println("Packer: " + Books.packer);
 		System.out.println("Generic Name: " + generic_name);
+		System.out.println("Generic Name: " + Books.generic_name);
 		System.out.println("Best sellers rank: " + best_sellers_rank);
+		System.out.println("Best sellers rank: " + Books.best_sellers_rank);
 	}
 }

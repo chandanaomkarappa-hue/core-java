@@ -49,27 +49,72 @@ class SmartWatch
 		String country_of_origin="India";
 		String item_weight="0.05g";
 		System.out.println("The Brand is : " + brand);
+		System.out.println("The Brand is : " + SmartWatch.brand);
+		
 		System.out.println("The Manufacturer is : " + manufacturer);
+		System.out.println("The Manufacturer is : " + SmartWatch.manufacturer);
+		
 		System.out.println("The Series : " + series);
+		System.out.println("The Series : " + SmartWatch.series);
+		
 		System.out.println("The Colour : " + colour);
+		System.out.println("The Colour : " + SmartWatch.colour);
+		
 		System.out.println("The Item Height is : " + item_height);
+		System.out.println("The Item Height is : " + SmartWatch.item_height);
+		
 		System.out.println("The Item Width is : " + item_width);
+		System.out.println("The Item Width is : " + SmartWatch.item_width);
+		
 		System.out.println("The Standing Screen Size Display is: " + standing_screen_display_size);
+		System.out.println("The Standing Screen Size Display is: " + SmartWatch.standing_screen_display_size);
+		
 		System.out.println("The Product Dimension is:" + product_dimentions);
+		System.out.println("The Product Dimension is:" + SmartWatch.product_dimentions);
+		
 		System.out.println("The Batteries is: " + batteries);
+		System.out.println("The Batteries is: " + SmartWatch.batteries);
+		
 		System.out.println("The Item Model Number is: " + item_model_number);
+		System.out.println("The Item Model Number is: " + SmartWatch.item_model_number);
+		
 		System.out.println("The Connectivity type is: " + connectivity);
+		System.out.println("The Connectivity type is: " + SmartWatch.connectivity);
+		
 		System.out.println("The Wireless type is: " + wireless);
+		System.out.println("The Wireless type is: " + SmartWatch.wireless);
+		
 		System.out.println("The Wattage is :" + wattage);
+		System.out.println("The Wattage is :" + SmartWatch.wattage);
+		
 		System.out.println("The Operating System is:" + operating_system);
+		System.out.println("The Operating System is:" + SmartWatch.operating_system);
+		
 		System.out.println("The Average battery Life is :" + averagebatteylife);
+		System.out.println("The Average battery Life is :" + SmartWatch.averagebatteylife);
+		
 		System.out.println("If batteries included  :" + batteriesincluded);
+		System.out.println("If batteries included  :" + SmartWatch.batteriesincluded);
+		
 		System.out.println("The Lithium Battery  is: " + lithium_battery);
+		System.out.println("The Lithium Battery  is: " + SmartWatch.lithium_battery);
+		
 		System.out.println("The Liithium Battery Weight is: " + lithium_battery_weight);
+		System.out.println("The Liithium Battery Weight is: " + SmartWatch.lithium_battery_weight);
+		
 		System.out.println("Number of Lithium Ion cells : " + ion_cells);
+		System.out.println("Number of Lithium Ion cells : " + SmartWatch.ion_cells);
+		
 		System.out.println("Number of Lithium Metal Cells : " + metal_cells);
+		System.out.println("Number of Lithium Metal Cells : " + SmartWatch.metal_cells);
+		
 		System.out.println("The Components : " + components);
+		System.out.println("The Components : " + SmartWatch.components);
+		
 		System.out.println("The Country Of Origin : " + country_of_origin);
+		System.out.println("The Country Of Origin : " + SmartWatch.country_of_origin);
+		
 		System.out.println("The Item Weight : " + item_weight);
+		System.out.println("The Item Weight : " + SmartWatch.item_weight);
 	}
 }

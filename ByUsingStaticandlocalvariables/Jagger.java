@@ -1,22 +1,22 @@
 class Jagger
 {
-	static String brand;
-	static String material;
-	static String colour;
-	static String product_dimensions;
-	static String item_weight;
-	static String outside_diameter;
-	static String item_length;
-	static String manufacturer;
-	static String country_of_origin;
-	static String item_model_number;
-	static String asin;
-	static String manufacturer_contact_information;
-	static String packer;
-	static String net_quantity;
-	static String components;
-	static String generic_name;
-	static String best_sellers_rank;
+	static String brand="Legend";
+	static String material="Legend";
+	static String colour="gold";
+	static String product_dimensions="‎31L x 1.0W Centimeters";
+	static String item_weight="0.12";
+	static String outside_diameter="1.0 Inches";
+	static String item_length="‎30.96 Centimetres";
+	static String manufacturer="Legend China";
+	static String country_of_origin="China";
+	static String item_model_number="LEG346";
+	static String asin="P079TJGGDJ";
+	static String manufacturer_contact_information="Legend China";
+	static String packer="legend China";
+	static String net_quantity="2 Count";
+	static String components="Pelin";
+	static String generic_name= "New";
+	static String best_sellers_rank="#110 in Home";
 	public static void main(String[] args)
 	{
 		String brand="‎JAGGER";
@@ -37,21 +37,38 @@ class Jagger
 		String generic_name="SS WIRED CONNECTION PIPE";
 		String best_sellers_rank="#220 in Home Improvement (See Top 100 in Home Improvement)#1 in Pipe Fittings & Accessories ";
 		System.out.println("Brand: " + brand);
+		System.out.println("Brand: " + Jagger.brand);
 		System.out.println("Material: " + material);
+		System.out.println("Material: " + Jagger.material);
 		System.out.println("Colour: " + colour);
+		System.out.println("Colour: " + Jagger.colour);
 		System.out.println("Product Dimensions: " + product_dimensions);
+		System.out.println("Product Dimensions: " + Jagger.product_dimensions);
 		System.out.println("Item Weight: " + item_weight);
+		System.out.println("Item Weight: " + Jagger.item_weight);
 		System.out.println("Outside Diameter: " + outside_diameter);
+		System.out.println("Outside Diameter: " + Jagger.outside_diameter);
 		System.out.println("Item Length: " + item_length);
+		System.out.println("Item Length: " + Jagger.item_length);
 		System.out.println("Manufacturer  : " + manufacturer);
+		System.out.println("Manufacturer  : " + Jagger.manufacturer);
 		System.out.println("Country of Origin : " + country_of_origin);
+		System.out.println("Country of Origin : " + Jagger.country_of_origin);
 		System.out.println("Item Model Number : " + item_model_number);
+		System.out.println("Item Model Number : " + Jagger.item_model_number);
 		System.out.println("Asin : " + asin);
+		System.out.println("Asin : " + Jagger.asin);
 		System.out.println("Manufaturer Contact Information : " + manufacturer_contact_information);
+		System.out.println("Manufaturer Contact Information : " + Jagger.manufacturer_contact_information);
 		System.out.println("Packer: " + packer);
+		System.out.println("Packer: " + Jagger.packer);
 		System.out.println("Net Quantity: " + net_quantity);
+		System.out.println("Net Quantity: " + Jagger.net_quantity);
 		System.out.println("Components: " + components);
+		System.out.println("Components: " + Jagger.components);
 		System.out.println("Generic Name: " + generic_name);
+		System.out.println("Generic Name: " + Jagger.generic_name);
 		System.out.println("Best sellers rank: " + best_sellers_rank);
+		System.out.println("Best sellers rank: " + Jagger.best_sellers_rank);
 	}
 }

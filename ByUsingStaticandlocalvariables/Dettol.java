@@ -1,17 +1,17 @@
 class Dettol
 {
-	static String manufacturer;
-	static String country_of_origin;
-	static String item_model_number;
-	static String product_dimensions;
-	static String asin;
-	static String manufacturer_contact_information;
-	static String packer;
-	static String item_weight;
-	static String item_dimensions;
-	static String net_quantity;
-	static String generic_name;
-	static String best_sellers_rank;
+	static String manufacturer="detain";
+	static String country_of_origin="China";
+	static String item_model_number="4512870";
+	static String product_dimensions="8*22*22 cm; 150 g";
+	static String asin="P0RDSEDEGH56";
+	static String manufacturer_contact_information="Detain  manufacturer";
+	static String packer="Detain  manufacturer";
+	static String item_weight="150 g";
+	static String item_dimensions="8*22*22 cm; 150 g";
+	static String net_quantity="170 Millimeters";
+	static String generic_name="Cleaning Agent";
+	static String best_sellers_rank="23 Pearsonal Products";
 	public static void main(String[] args)
 	{
 		String manufacturer="‎‎Reckitt Benckiser India Pvt ltd";
@@ -27,16 +27,28 @@ class Dettol
 		String generic_name="Washing Machine Cleaner Descaler";
 		String best_sellers_rank="#31 in Health & Personal Care (See Top 100 in Health & Personal Care)#1 in Household Washing Machine Cleaners";
 		System.out.println("Manufacturer  : " + manufacturer);
+		System.out.println("Manufacturer  : " + manufacturer);
+		System.out.println("Country of Origin : " + country_of_origin);
 		System.out.println("Country of Origin : " + country_of_origin);
 		System.out.println("Item Model Number : " + item_model_number);
+		System.out.println("Item Model Number : " + item_model_number);
+		System.out.println("Product Dimensions: " + product_dimensions);
 		System.out.println("Product Dimensions: " + product_dimensions);
 		System.out.println("Asin : " + asin);
+		System.out.println("Asin : " + asin);
+		System.out.println("Manufaturer Contact Information : " + manufacturer_contact_information);
 		System.out.println("Manufaturer Contact Information : " + manufacturer_contact_information);
 		System.out.println("Packer: " + packer);
+		System.out.println("Packer: " + packer);
+		System.out.println("Item Weight: " + item_weight);
 		System.out.println("Item Weight: " + item_weight);
 		System.out.println("Item Dimensions: " + item_dimensions);
+		System.out.println("Item Dimensions: " + item_dimensions);
+		System.out.println("Net Quantity: " + net_quantity);
 		System.out.println("Net Quantity: " + net_quantity);
 		System.out.println("Generic Name: " + generic_name);
+		System.out.println("Generic Name: " + generic_name);
+		System.out.println("Best sellers rank: " + best_sellers_rank);
 		System.out.println("Best sellers rank: " + best_sellers_rank);
 	}
 }

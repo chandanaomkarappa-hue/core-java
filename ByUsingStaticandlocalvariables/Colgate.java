@@ -1,18 +1,18 @@
 class Colgate
 {
-	static String manufacturer;
-	static String country_of_origin;
-	static String item_model_number;
-	static String product_dimensions;
-	static String asin;
-	static String manufacturer_contact_information;
-	static String packer;
-	static String item_weight;
-	static String item_dimensions;
-	static String net_quantity;
-	static String components;
-	static String generic_name;
-	static String best_sellers_rank;
+	static String manufacturer="Colgate salt";
+	static String country_of_origin="USA";
+	static double item_model_number=54612789;
+	static String product_dimensions="8.2*6.6*3.2 Centimeters";
+	static String asin="P0654321F4";
+	static String manufacturer_contact_information="Jaipur";
+	static String packer="Jaipur";
+	static String item_weight="150 g";
+	static String item_dimensions="8.2*6.6*3.2 Centimeters";
+	static String net_quantity="150.0 Grams";
+	static String components="Colgate Salt";
+	static String generic_name="Paste";
+	static String best_sellers_rank="#5 in Personal Care products";
 	public static void main(String[] args)
 	{
 		String manufacturer="‎Colgate-Palmolive (India) Ltd.‎";
@@ -29,17 +29,30 @@ class Colgate
 		String generic_name="Toothpaste";
 		String best_sellers_rank="#27 in Health & Personal Care (See Top 100 in Health & Personal Care)#2 in Toothpastes";
 		System.out.println("Manufacturer  : " + manufacturer);
+		System.out.println("Manufacturer  : " + Colgate.manufacturer);
 		System.out.println("Country of Origin : " + country_of_origin);
+		System.out.println("Country of Origin : " + Colgate.country_of_origin);
 		System.out.println("Item Model Number : " + item_model_number);
+		System.out.println("Item Model Number : " + Colgate.item_model_number);
 		System.out.println("Product Dimensions: " + product_dimensions);
+		System.out.println("Product Dimensions: " + Colgate.product_dimensions);
 		System.out.println("Asin : " + asin);
+		System.out.println("Asin : " + Colgate.asin);
 		System.out.println("Manufaturer Contact Information : " + manufacturer_contact_information);
+		System.out.println("Manufaturer Contact Information : " + Colgate.manufacturer_contact_information);
 		System.out.println("Packer: " + packer);
+		System.out.println("Packer: " + Colgate.packer);
 		System.out.println("Item Weight: " + item_weight);
+		System.out.println("Item Weight: " + Colgate.item_weight);
 		System.out.println("Item Dimensions: " + item_dimensions);
+		System.out.println("Item Dimensions: " + Colgate.item_dimensions);
 		System.out.println("Net Quantity: " + net_quantity);
+		System.out.println("Net Quantity: " + Colgate.net_quantity);
 		System.out.println("Components: " + components);
+		System.out.println("Components: " + Colgate.components);
 		System.out.println("Generic Name: " + generic_name);
+		System.out.println("Generic Name: " + Colgate.generic_name);
 		System.out.println("Best sellers rank: " + best_sellers_rank);
+		System.out.println("Best sellers rank: " + Colgate.best_sellers_rank);
 	}
 }

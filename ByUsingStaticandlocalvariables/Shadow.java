@@ -9,7 +9,7 @@ class Shadow
 	static String manufacturer_contact_information="PURE WORLD";
 	static String packer="PURE WORLD";
 	static String importer="PURE WORLD";
-	static String item_weight"80 g";
+	static String item_weight="80 g";
 	static String item_dimensions="20 x 15 x 15 cm; 80 g‎";
 	static String net_quantity="11.8 grams";
 	static String generic_name="eyeshadow product";

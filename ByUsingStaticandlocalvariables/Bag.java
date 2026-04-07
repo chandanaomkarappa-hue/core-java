@@ -1,22 +1,22 @@
 class Bag
 {
-	static String product_dimensions;
-	static 	String date_first_available;
-	static 	String manufacturer;
-	static 	String asin;
-	static 	String item_model_number;
-	static 	String country_of_origin;
-	static 	String department;
-	static 	String manufacturer_location;
-	static 	String packer;
-	static 	String item_weight;
-	static 	String item_dimensions;
-	static 	String net_quantity;
-	static 	String generic_name;
-	static 	String best_sellers_rank;
+	static String product_dimensions="6*12*34 cm";
+	static 	String date_first_available="12 June 2025";
+	static 	String manufacturer=" Swiss Thera, Jaipur";
+	static 	String asin="B0DGFDGHF56";
+	static 	String item_model_number="SBJ-564";
+	static 	String country_of_origin="China";
+	static 	String department="any";
+	static 	String manufacturer_location=" Swiss Thera, Jaipur";
+	static 	String packer=" Swiss Thera, Jaipur";
+	static 	String item_weight="250 g";
+	static 	String item_dimensions="6*12*34 cm";
+	static 	String net_quantity="5 Count";
+	static 	String generic_name= "Bag";
+	static 	String best_sellers_rank="Travllers comfort";
 	public static void main(String[] args)
 	{
-		String product_dimensions="9 x 17 x 31 cm; 300 g  ";
+		String product_dimensions="9 x 17 x 31 cm;  ";
 		String date_first_available=" 23 December 2025";
 		String manufacturer=" VALIJA Lifestyle, Thane, Maharashtra";
 		String asin="B0GC7GV6SH ";
@@ -37,7 +37,7 @@ class Bag
 		System.out.println(" Manufacturer is : " + manufacturer);
 		System.out.println(" Manufacturer is : " + Bag.manufacturer);
 		System.out.println(" ASIN is : " + asin);
-		System.out.println(" ASIN is : " +Bag.asin);
+		System.out.println(" ASIN is : " + Bag.asin);
 		System.out.println(" Item Model Number is : " + item_model_number);
 		System.out.println(" Item Model Number is : " + Bag.item_model_number);
 		System.out.println(" Country Of Origin is : " + country_of_origin);
