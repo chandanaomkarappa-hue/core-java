@@ -1,0 +1,110 @@
+1.explain constructor chaining using this() with example?
+Constructor chaining means calling one constructor from another constructor of the same class using this().
+Used to avoid code duplication.
+class Student {
+    int id;
+    String name;
+
+    Student() {
+        this(101, "Chandana"); 
+        System.out.println("Default Constructor");
+    }
+
+    Student(int id, String name) {
+        this.id = id;
+        this.name = name;
+        System.out.println("Parameterized Constructor");
+    }
+
+    void display() {
+        System.out.println(id + " " + name);
+    }
+
+    public static void main(String[] args) {
+        Student s = new Student();
+        s.display();
+    }
+}
+2. explain default values assigned to instance variables in java with example
+class DefaultValues {
+    int num;
+    double price;
+    boolean flag;
+    String name;
+
+    public static void main(String[] args) {
+        DefaultValues obj = new DefaultValues();
+
+        System.out.println(obj.num);   
+        System.out.println(obj.price);  
+        System.out.println(obj.flag);  
+        System.out.println(obj.name);   
+    }
+}
+3.write a java program tp perform crud opertions on an array 
+4.write a program to demonstatre a default constructor
+class Demo {
+    Demo() {
+        System.out.println("Default Constructor Called");
+    }
+
+    public static void main(String[] args) {
+        Demo d = new Demo();
+    }
+}
+5..write a program to demonstatre a parameterized constructor
+class Employee {
+    int id;
+    String name;
+
+    Employee(int i, String n) {
+        id = i;
+        name = n;
+    }
+
+    void display() {
+        System.out.println(id + " " + name);
+    }
+
+    public static void main(String[] args) {
+        Employee e = new Employee(101, "Chandana");
+        e.display();
+    }
+}
+6.what is the constructor in java ?who provides the default constructors?
+
+A constructor is a special method:
+
+Used to initialize objects
+Has same name as class
+No return type (not even void)
+Automatically called when object is created
+
+ Default constructor
+
+Provided by Java compiler
+Only if you don’t write any constructor
+
+7.can a constructor have a return type why?
+8.give a real world example of a has a realationship?
+class Engine {
+    void start() {
+        System.out.println("Engine starts");
+    }
+}
+
+class Car {
+    Engine e = new Engine(); 
+    void drive() 
+{
+        e.start();
+        System.out.println("Car is moving");
+    }
+
+    public static void main(String[] args) 
+{
+        Car c = new Car();
+        c.drive();
+    }
+}
+
